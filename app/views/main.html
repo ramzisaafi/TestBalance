@@ -1,0 +1,17 @@
+
+<center>
+<div style="display: inline-flex;">
+ <div ng-repeat="n in listBall">
+<div ng-class="{ 'ballonSelected': n.num == selectedIndex , 'ballon': n.num != selectedIndex }" ng-click="selection(n.num)"><p>{{n.num}}</p></div>
+</div>
+</div>
+</center>
+<center>
+<img src="images/balance.jpg" width="200" height="200"><br>
+<button ng-click="execute();">Exécuter</button>
+<button ng-click="reset();">Reset</button>
+</center>
+<br>
+<center>
+{{resultatFinal}}
+</center>

@@ -1,0 +1,32 @@
+.ballon{
+    display: block;
+    background: #0c31e8;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+
+       }
+.ballonSelected{
+    display: block;
+    background: yellow;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+
+       }
+	   .ballonSelected p {
+font-size: 40px;
+	color: white;
+    text-align: center;
+    top: 23%;
+    position: relative;
+}
+.ballon p {
+font-size: 40px;
+	color: white;
+    text-align: center;
+    top: 23%;
+    position: relative;
+}
